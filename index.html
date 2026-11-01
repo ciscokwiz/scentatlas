@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Every perfume, explained in plain words. See the notes move, and how a scent changes on skin and in heat." />
+    <title>Scent Atlas</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- The search index is needed on every page: start downloading it alongside the app. -->
+    <link rel="preload" href="./data/index.json" as="fetch" type="application/json" crossorigin="anonymous" />
+    <link rel="preload" href="./images/manifest.json" as="fetch" type="application/json" crossorigin="anonymous" />
+    <meta name="theme-color" content="#F6F1E9" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=Jost:wght@400;500&family=Cinzel:wght@400;500;600&family=Bodoni+Moda:opsz,wght@6..96,400..500&family=Tenor+Sans&family=Courier+Prime&family=Playfair+Display:ital@1&family=Marcellus&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

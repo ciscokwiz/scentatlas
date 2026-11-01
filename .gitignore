@@ -1,0 +1,7 @@
+node_modules
+dist
+data-raw
+.vercel
+*.tsbuildinfo
+__pycache__/
+.DS_Store

@@ -1,0 +1,15 @@
+[
+  {"name": "Perfect", "brand": "Marc Jacobs", "year": 2020, "gender": "f", "pop": 1500,
+   "accords": ["green", "fruity", "almond", "aromatic", "woody", "sweet", "yellow floral", "nutty", "powdery", "musky"],
+   "top": ["rhubarb", "narcissus"], "middle": ["almond milk"], "base": ["cashmeran"],
+   "source_note": "Accords from the reference image; notes from the brand's published key notes."},
+  {"name": "Not Another Cherry", "brand": "Fine'ry", "gender": "u", "pop": 600,
+   "accords": ["almond", "cherry", "fruity", "sweet", "nutty"],
+   "source_note": "Accords from the reference image. Full note pyramid not in the dataset yet."},
+  {"name": "Whipped Almond No.14", "brand": "Mix:Bar", "gender": "u", "pop": 600,
+   "accords": ["almond", "lactonic", "nutty", "woody", "fruity", "sweet", "powdery", "iris", "floral", "warm spicy"],
+   "source_note": "Accords from the reference image. Full note pyramid not in the dataset yet."},
+  {"name": "Fall Cashmere", "brand": "Skylar", "gender": "u", "pop": 600,
+   "accords": ["warm spicy", "cinnamon", "vanilla", "powdery", "almond", "woody", "amber", "sweet", "nutty"],
+   "source_note": "Accords from the reference image. Full note pyramid not in the dataset yet."}
+]
